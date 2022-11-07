@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    background-image: url("/Images/backgroundspace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.section{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageDef{
+    margin-top: 3vh;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin: 2vh;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 2vh 3vh 2vh 3vh;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.box{
+    width: 300px;
+    height: 600px;
+    background-color: rgba(255,255,255,0.5);
+    transition: 1s;
+}
+.box:hover{
+    background-color: rgba(255,255,255,0.8);
+    transition: 1s;
+}
+
+.audio{
+    margin: 5vh auto 5vh auto;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+@media (max-width: 1150px) {
+
+    body {
+        min-height: 100vh;
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .logo{
+        background-color: rgba(0, 0, 0, 0);
+        display: block;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .section{
+        width: 80%;
+        height: 2200px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    
+    .imageDef{
+        margin-left: 3vh;
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h2{
+        margin: 2vh;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    p{
+        margin: 2vh 3vh 2vh 3vh;
+        text-align: center;
+        font-size: 1rem;
+        float: right;
+    }
+    
+    .box{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        min-height: 600px;  
+        background-color: rgba(255,255,255,0.5);
+        transition: 1s;
+    }
+    .box:hover{
+        background-color: rgba(255,255,255,0.8);
+        transition: 1s;
+    }
+    
+    }
